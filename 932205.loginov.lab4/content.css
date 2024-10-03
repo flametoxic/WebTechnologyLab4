@@ -1,0 +1,166 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#edeef0;
+}
+header{
+	background-color:#507299;
+	height:50px;
+	width:100%;
+	position:fixed;
+	top:0px;
+	z-index:2;
+}
+
+footer{
+	height:auto;
+	width:100%;
+	height:20px;
+	padding-top:3px;
+	background-color:white;
+	color:#909090;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+	width:600px;
+	height:auto;
+	margin:70px auto 0px auto;
+	position:relative;
+	left:50px;
+	}
+.block{
+     border-radius:20px;
+     box-sizing: padding-box;
+	width:410px;
+	height:340px;
+	background-color:white;
+	margin:20px;
+	border: 2px solid #e1e5eb;
+	padding:20px;
+	text-align:justify;
+     font-family: Arial, Helvetica, sans-serif;
+	position:relative;
+	z-index:1;
+}
+.line{
+	background-color:#d0d0d0;
+	width:100%;
+	margin:10px 0px 10px 0px;
+	height:3px;
+	position:relative;
+	left:0px;
+}
+.like{
+	float:left;
+	color:#507299;
+	text-decoration:none;
+}
+.comment{
+	color:#507299;
+	text-decoration:none;
+	float:right
+}
+.block_cat{
+	height:350px;
+}
+.cat{
+	width:410px;
+	height:320px;
+	margin:auto;
+}
+.block_header{
+	height:380px;
+}
+.line_header{
+	position:absolute;
+	left:0px;
+}
+.leftside{
+	width:250px;
+	height:400px;
+	margin:25px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:-250px;
+	top:-30px;
+}
+.list{
+	  display:list-item;
+	  list-style-type:none;
+	  margin:10px 0px 0px 50px;
+	  padding:7px;
+}
+a{
+	text-decoration:none;
+	color:#2e5473;
+}
+.list:hover{
+	  background-color:#e1e5eb;
+
+}
+.logo{
+	margin: 12px 0px 0px 15%;
+}
+.info{
+	position:fixed;
+	height:auto;
+	width:170px;
+	left:70%;
+	top:70px;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+.info_block{
+	background-color:white;
+	border-radius:8px;
+      box-sizing: padding-box;
+	border: 2px solid #e1e5eb;
+	width:130px;
+	height:150px;
+	padding:10px 5px;
+	margin:0px 20px 20px 20px;
+}
+.info_text{
+	background-color:#edeef0;
+	width:120px;
+	height:auto;
+	margin:15px auto 0px auto;
+}
+@media screen and (max-width: 1100px)
+{
+.info{
+	display:none;
+}
+}
+@media screen and (max-width: 920px)
+{
+.aside{
+	left:50px;
+	top:-125px;
+	width:410px;
+	text-align:center;
+
+}
+.list{
+	margin: 0px;
+	line-height:3em;
+
+}
+.main{
+	top:100px;
+	left:0px;
+}
+.list{
+	display:inline;
+	width:
+}
+footer{
+	position:relative;
+	top:120px;
+}
+}
+.block::selection{
+	  background-color:#e1e5eb;
+	  color:green;
+}
